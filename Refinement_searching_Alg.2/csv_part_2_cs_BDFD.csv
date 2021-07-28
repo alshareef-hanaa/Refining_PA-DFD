@@ -1,0 +1,8 @@
+id,value,style,source,target,type
+2,BIM,shape=partialRectangle,null,null,data_base
+3,project Database,shape=partialRectangle,null,null,data_base
+4,Tracked progress&nbsp;,endArrow=classic,2,6,endArrow=classic
+5,Valid Installation,endArrow=classic,7,3,endArrow=classic
+6,ceritfy work via Oracl,ellipse,null,null,process
+7,remove smart sensor,ellipse,null,null,process
+8,ITP,endArrow=classic,6,7,endArrow=classic

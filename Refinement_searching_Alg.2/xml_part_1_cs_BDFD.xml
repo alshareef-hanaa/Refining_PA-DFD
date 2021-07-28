@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" modified="2021-07-23T12:07:04.065Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/12.4.2 Chrome/78.0.3904.130 Electron/7.1.4 Safari/537.36" version="12.4.2" etag="lNuisEdtWn5qa-sFoeOt" type="device" pages="1">
+  <diagram id="mHNeW0bfGheRzdyc2rUF">
+    <mxGraphModel dx="897" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="Validate completed works" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="420" y="460" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="BIM" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="340" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="project Database" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="210" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="Tracked progress" style="endArrow=classic;html=1;fontColor=#FF3333;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="3" target="2" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="320" as="sourcePoint"/>
+            <mxPoint x="520" y="270" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="460" y="380"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6" value="Valid Installation" style="endArrow=classic;html=1;fontColor=#FF3333;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="2" target="4" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="530" as="sourcePoint"/>
+            <mxPoint x="200" y="480" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="220" y="500"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,6 @@
+id,value,style,source,target,type
+2,Validate completed works,ellipse;shape=doubleEllipse,null,null,composite_process
+3,BIM,shape=partialRectangle,null,null,data_base
+4,project Database,shape=partialRectangle,null,null,data_base
+5,Tracked progress,endArrow=classic,3,2,endArrow=classic
+6,Valid Installation,endArrow=classic,2,4,endArrow=classic
