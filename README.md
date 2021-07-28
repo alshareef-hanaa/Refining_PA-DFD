@@ -15,9 +15,9 @@ Usage
 
 2- Export xml files of DFDs from draw.io
 
-3- Clone the [GitHub repository]():
+3- Clone the [GitHub repository](https://github.com/alshareef-hanaa/Refining_PA-DFD.git):
   
-  $ git clone
+  $ git clone https://github.com/alshareef-hanaa/Refining_PA-DFD.git
 
 4- DFD Refinery tool comprises three algorithms: Refinement Checking, Refinement Search and Refinement Transformation. DFD Refinery also includes an updated version
 of our previous tool for transforming B-DFDs into PA-DFDs. 
