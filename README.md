@@ -26,16 +26,23 @@ of our previous tool for transforming B-DFDs into PA-DFDs.
    Refinement Checking:
    -------------------
    
-   1- Go into the directory where the script (Refinement_Checking.py) and the xml files of DFDs (abstract and concrete), which you have exported in step 2 in             Usage.
+   1- Go into the directory where the script (Refinement_checking.py) and the xml files of DFDs (abstract and concrete), which you have exported in step 2 in             Usage.
    
-   2- To run the script (Refinement_Checking.py) from the terminal, you need to provide the file names of the csv files for DFDs (abstract and concrete), xml files      for DFDs (abstract and concrete) and csv files for abstraction DFDs (nodes and flows) as arguments, use the following command:
+   2- To run the script (Refinement_checking.py) from the terminal, you need to provide the file names of the csv files for DFDs (abstract and concrete), xml files      for DFDs (abstract and concrete) and csv files for abstraction DFDs (nodes and flows) as arguments, use the following command:
    
-     $ python Refinement_Checking.py "the name of DFD abstract level xml file" "the name of DFD abstract level csv file" "the name of DFD concrete level xml file"          "the name of DFD concrete level csv file" "the name of nodes abstraction DFDs csv file" "the name of flows abstraction DFDs csv file"
+     $ python3 Refinement_checking.py "the name of DFD abstract level xml file" "the name of DFD abstract level csv file" "the name of DFD concrete level xml file"          "the name of DFD concrete level csv file" "the name of nodes abstraction DFDs csv file" "the name of flows abstraction DFDs csv file"
     
 
    Refinement Search:
    ------------------
    
+   1- Go into the directory where the script (Refinement_searching.py) and the xml files of DFDs (abstract and concrete), which you have exported in step 2 in             Usage.
+   
+   2- To run the script (Refinement_searching.py) from the terminal, you need to provide the file names of the csv files for DFDs (abstract and concrete), xml files      for DFDs (abstract and concrete) and csv files for abstraction DFDs (nodes and flows) in case you want to provide a hint for nodes or flows abstraction as          arguments. 
+   
+   3- Moreover, you can select if result abstractions can only contain the balanced (total) once or all (total and partial) and provide a txt file for presenting         the result, use the following command:
+   
+    $ python3 Refinement_searching.py "the name of DFD abstract level xml file" "the name of DFD abstract level csv file" "the name of DFD concrete level xml file"         "the name of DFD concrete level csv file" "the name of nodes abstraction DFDs csv file" "the name of flows abstraction DFDs csv file" "result options               balanced or all" > "the name of txt file"
    
 
    Refinement Transformation:
@@ -46,13 +53,13 @@ of our previous tool for transforming B-DFDs into PA-DFDs.
    
    2- For each DFD run the script (Transformation_DFD_PADFD.py) from the terminal, you need to provide the file names of csv file for DFD, csv file for PA-DFD, csv       file for tracking maps and xml file for DFD as arguments, use the following command:
    
-    $ python Transformation_DFD_PADFD.py "the name of DFD xml file" "the name of DFD csv file" 
+    $ python3 Transformation_DFD_PADFD.py "the name of DFD xml file" "the name of DFD csv file" 
       "the name of PA-DFD csv file" "the name of tracking maps csv file" 
       
    3- To run the script (Refinement_Transformation.py) from the terminal, you need to provide the file names of the csv files for tracking maps and csv files for        PA-DFDs, which are produced from the previous step, as arguments. Also, csv file for abstraction DFDs obtained from executing Refinement Checking or
      Refinement Search. The last argument that needs to be provided is csv file for abstraction PA-DFDs, use the following command:
      
-    $ python Refinement_Transformation.py "the name of tracking map (DFD abstract level) csv file" "the name of tracking map (DFD concrete level) csv file" 
+    $ python3 Refinement_Transformation.py "the name of tracking map (DFD abstract level) csv file" "the name of tracking map (DFD concrete level) csv file" 
       "the name of PA-DFD abstract level csv file" "the name of PA-DFD concrete level csv file" "the name of nodes abstraction DFDs csv file" "the name of flows            abstraction DFDs csv file" "the name of abstraction PA-DFDs csv file" 
       
       
